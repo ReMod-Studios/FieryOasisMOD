@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"platinum_ingot": {
+			"textures": [
+				"textures/items/platinum_ingot"
+			]
+		},
+		"platinum_nugget": {
+			"textures": [
+				"textures/items/platinum_nugget"
+			]
+		}
+	}
+}

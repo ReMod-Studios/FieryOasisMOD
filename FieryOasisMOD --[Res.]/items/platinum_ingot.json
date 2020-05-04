@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:platinum_ingot",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:render_offsets": "apple",
+			"minecraft:icon": "platinum_ingot",
+			"minecraft:hover_text_color": "white"
+		}
+	}
+}

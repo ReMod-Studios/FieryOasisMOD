@@ -1,0 +1,14 @@
+##bridge-file-version: #2
+pack.name=FieryOasisMOD --[Res.]
+pack.description=The open source mod project used In the MInecraft SMP Server "FierySMP" (S1)  ||  Discord Server -- n299aNQ  ||  Owner's Discord -- «-⟩ PizzaloverPichu ⟨-»#5243     |<->||
+
+
+##blocks
+tile.fierysys:platinum_block.name=Platinum Block
+tile.fierysys:platinum_ore.name=Platinum Ore
+
+
+##items
+item.fierysys:platinum_coin.name=Platinum Coin
+item.fierysys:platinum_nugget.name=Platinum Nugget
+item.fierysys:platinum_ingot.name=Platinum Ingot

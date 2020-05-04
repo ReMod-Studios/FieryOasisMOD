@@ -1,0 +1,15 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"category": "Items",
+			"identifier": "fierysys:platinum_nugget"
+		},
+		"components": {
+			"minecraft:icon": "platinum_nugget",
+			"minecraft:hover_text_color": "white",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}
