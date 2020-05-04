@@ -1,0 +1,15 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:platinum_ingot"
+		},
+		"components": {
+			"minecraft:use_duration": 0,
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true
+		}
+	}
+}

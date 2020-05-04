@@ -1,0 +1,35 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.13.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fierysys:platinum_block",
+			"register_to_creative_menu": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:block_light_emission": {
+				"emission": 0
+			},
+			"minecraft:block_light_absorption": {
+				"value": 0.9
+			},
+			"minecraft:map_color": {
+				"color": "#899B98"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": {
+				"value": 0.5
+			},
+			"minecraft:explosion_resistance": {
+				"value": 3
+			},
+			"minecraft:destroy_time": {
+				"value": 15
+			}
+		}
+	}
+}

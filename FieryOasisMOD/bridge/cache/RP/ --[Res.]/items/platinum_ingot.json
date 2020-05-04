@@ -1,0 +1,87 @@
+{
+	"file_path": "C:\\Users\\Ishita\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\FieryOasisMOD --[Res.]/items/platinum_ingot.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "fd6ea6bd_a03d_4df5_a70e_659df83fcc4f",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "fierysys:platinum_ingot",
+							"category": "Items"
+						},
+						"components": {
+							"minecraft:render_offsets": "apple",
+							"minecraft:icon": "platinum_ingot",
+							"minecraft:hover_text_color": "white"
+						}
+					}
+				},
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "fierysys:platinum_ingot",
+							"category": "Items"
+						},
+						"components": {
+							"minecraft:render_offsets": "apple",
+							"minecraft:icon": "platinum_ingot",
+							"minecraft:hover_text_color": "white"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fierysys:platinum_ingot",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:render_offsets": "apple",
+								"minecraft:icon": "platinum_ingot",
+								"minecraft:hover_text_color": "white"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fierysys:platinum_ingot",
+							"category": "Items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fierysys:platinum_ingot",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:render_offsets": "apple",
+								"minecraft:icon": "platinum_ingot",
+								"minecraft:hover_text_color": "white"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:render_offsets": "apple",
+							"minecraft:icon": "platinum_ingot",
+							"minecraft:hover_text_color": "white"
+						}
+					}
+				]
+			}
+		]
+	}
+}

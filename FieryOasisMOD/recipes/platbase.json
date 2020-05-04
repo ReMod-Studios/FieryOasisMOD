@@ -1,0 +1,57 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "fierysys:platbase"
+		},
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		],
+		"input": "fierysys:platinum_ore",
+		"output": "fierysys:platinum_ingot"
+	},
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fierysys:platbase"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "fierysys:platinum_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "fierysys:platinum_ingot"
+			}
+		]
+	},
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "fierysys:platbase"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "fierysys:platinum_block"
+			}
+		],
+		"result": [
+			{
+				"item": "fierysys:platinum_ingot",
+				"count": 9
+			}
+		]
+	}
+}

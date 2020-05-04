@@ -1,0 +1,8 @@
+{
+	"file_path": "C:\\Users\\Ishita\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\FieryOasisMOD --[Res.]\\texts\\en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "4e4cc5a8_5ff5_45ad_805b_530197068b3d",
+	"file_version": 2,
+	"cache_content": "pack.name=FieryOasisMOD --[Res.]\npack.description=The open source mod project used In the MInecraft SMP Server \"FierySMP\" (S1)  ||  Discord Server -- n299aNQ  ||  Owner's Discord -- «-⟩ PizzaloverPichu ⟨-»#5243     |<->||\n\n\n##blocks\ntile.fierysys:platinum_block.name=Platinum Block\ntile.fierysys:platinum_ore.name=Platinum Ore\n\n\n##items\nitem.fierysys:platinum_coin.name=Platinum Coin\nitem.fierysys:platinum_nugget.name=Platinum Nugget\nitem.fierysys:platinum_ingot.name=Platinum Ingot"
+}
