@@ -1,0 +1,30 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fierysys:human",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/human"
+			},
+			"geometry": {
+				"default": "geometry.humanoid"
+			},
+			"render_controllers": [
+				"controller.render.main"
+			],
+			"spawn_egg": {
+				"base_color": "#1778D2",
+				"overlay_color": "#09335A"
+			},
+			"enable_attachables": true,
+			"animations": {
+				"attack": "animation.human.attack_bare_hand",
+				"swimming": "animation.human.swimming"
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fierysys:mana_charger",
+			"materials": {
+				"default": "alpha_block"
+			},
+			"textures": {
+				"default": "textures/entity/mana_charger"
+			},
+			"geometry": {
+				"default": "geometry.mana_charger"
+			},
+			"render_controllers": [
+				"controller.render.mana_charger"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"base_color": "#1778D2",
+				"overlay_color": "#000000"
+			}
+		}
+	}
+}

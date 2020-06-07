@@ -1,0 +1,40 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:cocaine"
+		},
+		"components": {
+			"minecraft:food": {
+				"nutrition": 0,
+				"can_always_eat": true,
+				"saturation_modifier": "supernatural",
+				"cooldown_type": "chorusfruit",
+				"cooldown_time": 12,
+				"effects": [
+					{
+						"name": "health_boost",
+						"chance": 1,
+						"duration": 30,
+						"amplifier": 2,
+						"visible": 0,
+						"ambient": 1
+					},
+					{
+						"name": "wither",
+						"chance": 1,
+						"duration": 30,
+						"amplifier": 0,
+						"visible": 0,
+						"ambient": 1
+					}
+				]
+			},
+			"minecraft:use_duration": 16,
+			"minecraft:max_stack_size": 4,
+			"minecraft:hand_equipped": false,
+			"minecraft:foil": false
+		}
+	}
+}

@@ -1,0 +1,20 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:dynamite"
+		},
+		"components": {
+			"minecraft:use_duration": 30000,
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:food": {
+				"nutrition": 0,
+				"can_always_eat": true,
+				"saturation_modifier": "supernatural"
+			}
+		}
+	}
+}

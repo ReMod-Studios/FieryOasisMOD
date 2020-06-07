@@ -1,0 +1,204 @@
+{
+	"file_path": "C:\\Users\\Pikachu\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\FieryOasisMOD\\blocks\\quasidite.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "4bc732c4_ea0f_4314_aad5_f786449e6145",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:block": {
+						"description": {
+							"identifier": "fierysys:quasidite",
+							"register_to_creative_menu": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:destroy_time": {
+								"value": 27
+							},
+							"minecraft:block_light_emission": {
+								"emission": 1
+							},
+							"minecraft:block_light_absorption": {
+								"value": 0.9
+							},
+							"minecraft:map_color": {
+								"color": "#FF0000"
+							},
+							"minecraft:flammable": {
+								"burn_odds": 0,
+								"flame_odds": 0
+							},
+							"minecraft:friction": {
+								"value": 0.5
+							},
+							"minecraft:explosion_resistance": {
+								"value": 6000
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fierysys:quasidite",
+								"register_to_creative_menu": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 27
+								},
+								"minecraft:block_light_emission": {
+									"emission": 1
+								},
+								"minecraft:block_light_absorption": {
+									"value": 0.9
+								},
+								"minecraft:map_color": {
+									"color": "#FF0000"
+								},
+								"minecraft:flammable": {
+									"burn_odds": 0,
+									"flame_odds": 0
+								},
+								"minecraft:friction": {
+									"value": 0.5
+								},
+								"minecraft:explosion_resistance": {
+									"value": 6000
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fierysys:quasidite",
+							"register_to_creative_menu": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fierysys:quasidite",
+								"register_to_creative_menu": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:destroy_time": {
+									"value": 27
+								},
+								"minecraft:block_light_emission": {
+									"emission": 1
+								},
+								"minecraft:block_light_absorption": {
+									"value": 0.9
+								},
+								"minecraft:map_color": {
+									"color": "#FF0000"
+								},
+								"minecraft:flammable": {
+									"burn_odds": 0,
+									"flame_odds": 0
+								},
+								"minecraft:friction": {
+									"value": 0.5
+								},
+								"minecraft:explosion_resistance": {
+									"value": 6000
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"open": {
+									"minecraft:destroy_time": {
+										"value": 27
+									},
+									"minecraft:block_light_emission": {
+										"emission": 1
+									},
+									"minecraft:block_light_absorption": {
+										"value": 0.9
+									},
+									"minecraft:map_color": {
+										"color": "#FF0000"
+									},
+									"minecraft:flammable": {
+										"burn_odds": 0,
+										"flame_odds": 0
+									},
+									"minecraft:friction": {
+										"value": 0.5
+									},
+									"minecraft:explosion_resistance": {
+										"value": 6000
+									}
+								},
+								"key": "minecraft:destroy_time",
+								"is_minified": true,
+								"children": {
+									"value": 27
+								}
+							},
+							{
+								"key": "minecraft:block_light_emission",
+								"is_minified": true,
+								"children": {
+									"emission": 1
+								}
+							},
+							{
+								"key": "minecraft:block_light_absorption",
+								"is_minified": true,
+								"children": {
+									"value": 0.9
+								}
+							},
+							{
+								"key": "minecraft:map_color",
+								"is_minified": true,
+								"children": {
+									"color": "#FF0000"
+								}
+							},
+							{
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"burn_odds": 0,
+									"flame_odds": 0
+								}
+							},
+							{
+								"key": "minecraft:friction",
+								"is_minified": true,
+								"children": {
+									"value": 0.5
+								}
+							},
+							{
+								"key": "minecraft:explosion_resistance",
+								"is_minified": true,
+								"children": {
+									"value": 6000
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,435 @@
+{
+	"file_path": "C:\\Users\\Pikachu\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\FieryOasisMOD/spawn_rules/human.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "14551016_3cdc_4a1d_9121_281f8637b438",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "fierysys:human",
+							"population_control": "pillager"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:brightness_filter": {
+									"min": 0,
+									"max": 15
+								},
+								"minecraft:difficulty_filter": {
+									"min": "easy",
+									"max": "hard"
+								},
+								"minecraft:weight": {
+									"default": 100
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 3
+								},
+								"minecraft:permute_type": [
+									{
+										"weight": 95
+									}
+								],
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "plains"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "fierysys:human",
+								"population_control": "pillager"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 15
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 3
+									},
+									"minecraft:permute_type": [
+										{
+											"weight": 95
+										}
+									],
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "plains"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "fierysys:human",
+							"population_control": "pillager"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "fierysys:human",
+								"population_control": "pillager"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 0,
+										"max": 15
+									},
+									"minecraft:difficulty_filter": {
+										"min": "easy",
+										"max": "hard"
+									},
+									"minecraft:weight": {
+										"default": 100
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 3
+									},
+									"minecraft:permute_type": [
+										{
+											"weight": 95
+										}
+									],
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "plains"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"array": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:brightness_filter": {
+											"min": 0,
+											"max": 15
+										},
+										"minecraft:difficulty_filter": {
+											"min": "easy",
+											"max": "hard"
+										},
+										"minecraft:weight": {
+											"default": 100
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 3
+										},
+										"minecraft:permute_type": [
+											{
+												"weight": 95
+											}
+										],
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										}
+									}
+								],
+								"children": [
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 0,
+											"max": 15
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:difficulty_filter",
+										"is_minified": true,
+										"children": {
+											"min": "easy",
+											"max": "hard"
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 100
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 2,
+											"max_size": 3
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:permute_type",
+										"array": [
+											{
+												"open": [
+													{
+														"weight": 95
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"weight": 95
+												}
+											}
+										]
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 0,
+												"max": 15
+											},
+											"minecraft:difficulty_filter": {
+												"min": "easy",
+												"max": "hard"
+											},
+											"minecraft:weight": {
+												"default": 100
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 3
+											},
+											"minecraft:permute_type": [
+												{
+													"weight": 95
+												}
+											],
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "plains"
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "plains"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

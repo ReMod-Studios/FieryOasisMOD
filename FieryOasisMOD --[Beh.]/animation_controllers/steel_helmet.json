@@ -1,0 +1,28 @@
+//bridge-file-version: #12
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.steelhelmet": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+						}
+					]
+				},
+				"equipped": {
+					"on_entry": [
+						"/function functionsArmor/steel_helmet"
+					],
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/ --[Res.]/manifest.json": {
+		"data": {}
+	},
+	"RP/ --[Res.]/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/ --[Res.]/blocks.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/steel_helmet.json": {
+		"data": {}
+	},
+	"BP/blocks/quasidite.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/human.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	}
+}

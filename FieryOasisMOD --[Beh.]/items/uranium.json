@@ -1,0 +1,34 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:uranium"
+		},
+		"components": {
+			"minecraft:use_duration": 40,
+			"minecraft:max_stack_size": 32,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"nutrition": 0,
+				"can_always_eat": true,
+				"effects": [
+					{
+						"name": "fatal_poison",
+						"chance": 1,
+						"duration": 10,
+						"amplifier": 7
+					},
+					{
+						"name": "hunger",
+						"chance": 1,
+						"duration": 10,
+						"amplifier": 7
+					}
+				]
+			}
+		}
+	}
+}

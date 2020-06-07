@@ -1,0 +1,26 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "fierysys:marble_pillar"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"pattern": [
+			"."
+		],
+		"key": {
+			".": {
+				"item": "fierysys:smooth_marble"
+			}
+		},
+		"result": [
+			{
+				"item": "fierysys:marble_pillar",
+				"count": 1
+			}
+		]
+	}
+}

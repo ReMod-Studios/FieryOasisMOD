@@ -1,3 +1,156 @@
+//bridge-file-version: #29
 {
-  "format_version": [1, 1, 0]
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"fierysys:platinum_block": {
+		"sound": "metal",
+		"textures": "platinum_block",
+		"brightness_gamma": 0
+	},
+	"fierysys:platinum_ore": {
+		"sound": "stone",
+		"brightness_gamma": 0,
+		"textures": "platinum_ore"
+	},
+	"fierysys:reinforced_steel_net": {
+		"sound": "metal",
+		"brightness_gamma": 0,
+		"textures": "reinforced_net"
+	},
+	"fierysys:blacksteel_block": {
+		"sound": "metal",
+		"brightness_gamma": 0,
+		"textures": "steel_block"
+	},
+	"fierysys:chain_steel_net": {
+		"sound": "metal",
+		"brightness_gamma": 0,
+		"textures": "chain_net"
+	},
+	"fierysys:marble": {
+		"textures": "marble",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:marble_bricks": {
+		"textures": "marble_bricks",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:smooth_marble": {
+		"textures": "polished_marble",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:dark_mana_ore": {
+		"textures": "dark_mana_ore",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:marble_pillar": {
+		"textures": "marble_pillar",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:marble_carved": {
+		"textures": "marble_carved",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:marble_chiseled": {
+		"textures": "marble_chiseled",
+		"sound": "glass",
+		"brightness_gamma": 0
+	},
+	"fierysys:mana_essence_ore": {
+		"sound": "glass",
+		"brightness_gamma": 0,
+		"textures": "mana_ore"
+	},
+	"fierysys:rubyBlock": {
+		"sound": "stone",
+		"textures": "rubyBlock",
+		"brightness_gamma": 0
+	},
+	"fierysys:netherruby": {
+		"sound": "stone",
+		"brightness_gamma": 0,
+		"textures": "netherruby"
+	},
+	"fierysys:glow_obsidian": {
+		"sound": "stone",
+		"brightness_gamma": 0,
+		"textures": "glowing_obsidian"
+	},
+	"fierysys:chromaBlock_black": {
+		"sound": "glass",
+		"textures": "black"
+	},
+	"fierysys:chromaBlock_blue": {
+		"sound": "glass",
+		"textures": "blue"
+	},
+	"fierysys:chromaBlock_brown": {
+		"sound": "glass",
+		"textures": "brown"
+	},
+	"fierysys:chromaBlock_cyan": {
+		"sound": "glass",
+		"textures": "cyan"
+	},
+	"fierysys:chromaBlock_darkgrey": {
+		"sound": "glass",
+		"textures": "darkgrey"
+	},
+	"fierysys:chromaBlock_green": {
+		"sound": "glass",
+		"textures": "green"
+	},
+	"fierysys:chromaBlock_grey": {
+		"sound": "glass",
+		"textures": "grey"
+	},
+	"fierysys:chromaBlock_lightblue": {
+		"sound": "glass",
+		"textures": "lightblue"
+	},
+	"fierysys:chromaBlock_lime": {
+		"sound": "glass",
+		"textures": "lime"
+	},
+	"fierysys:chromaBlock_magenta": {
+		"sound": "glass",
+		"textures": "magenta"
+	},
+	"fierysys:chromaBlock_orange": {
+		"sound": "glass",
+		"textures": "orange"
+	},
+	"fierysys:chromaBlock_pink": {
+		"sound": "glass",
+		"textures": "pink"
+	},
+	"fierysys:chromaBlock_purple": {
+		"sound": "glass",
+		"textures": "purple"
+	},
+	"fierysys:chromaBlock_red": {
+		"sound": "glass",
+		"textures": "red"
+	},
+	"fierysys:chromaBlock_white": {
+		"sound": "glass",
+		"textures": "white"
+	},
+	"fierysys:chromaBlock_yellow": {
+		"sound": "glass",
+		"textures": "yellow"
+	},
+	"fierysys:quasidite": {
+		"sound": "stone",
+		"textures": "quasidite"
+	}
 }

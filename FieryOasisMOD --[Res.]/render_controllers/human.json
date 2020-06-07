@@ -1,0 +1,12 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.main": {
+			"textures": [
+				"Texture.default"
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

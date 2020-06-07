@@ -1,0 +1,48 @@
+{
+	"animation_controller": {
+		"BP/animation_controllers/steel_helmet.json": {
+			"ids": [
+				"controller.animation.steelhelmet"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/quasidite.json": {
+			"identifiers": [
+				"fierysys:quasidite"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"bridge:on_reset_player",
+				"bridge:on_equipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9",
+				"bridge:on_unequipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9",
+				"bridge:on_equipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5",
+				"bridge:on_unequipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5",
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"minecraft:entity_spawned",
+				"fierysys:addShoot_Fireball",
+				"fierysys:standardPlayer"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [
+				"bridge_custom_item_behavior",
+				"steel_helmet",
+				"walk",
+				"blazestaff"
+			],
+			"families": [
+				"player"
+			]
+		}
+	}
+}

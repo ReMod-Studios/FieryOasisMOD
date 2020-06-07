@@ -1,0 +1,23 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:blaze_staff"
+		},
+		"components": {
+			"minecraft:use_duration": 30000,
+			"minecraft:max_stack_size": 1,
+			"minecraft:max_damage": 252,
+			"minecraft:hand_equipped": true,
+			"minecraft:stacked_by_data": true,
+			"minecraft:food": {
+				"saturation_modifier": "supernatural",
+				"nutrition": 0,
+				"can_always_eat": true
+			},
+			"minecraft:foil": false,
+			"bridge:weapon_damage": 5
+		}
+	}
+}

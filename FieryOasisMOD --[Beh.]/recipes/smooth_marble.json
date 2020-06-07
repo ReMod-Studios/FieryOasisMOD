@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "fierysys:smooth_marble"
+		},
+		"tags": [
+			"furnace"
+		],
+		"input": "fierysys:marble",
+		"output": "fierysys:smooth_marble"
+	}
+}

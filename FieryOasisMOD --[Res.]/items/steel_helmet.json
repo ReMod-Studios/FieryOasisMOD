@@ -1,0 +1,16 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:steel_helmet",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "steel_helmet",
+			"minecraft:use_animation": "camera",
+			"minecraft:hover_text_color": "dark_gray",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

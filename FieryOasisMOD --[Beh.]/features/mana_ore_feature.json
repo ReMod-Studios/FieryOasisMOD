@@ -1,0 +1,14 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "mana_ore_feature"
+		},
+		"count": 27,
+		"may_replace": [
+			"fierysys:marble"
+		],
+		"places_block": "fierysys:mana_essence_ore"
+	}
+}

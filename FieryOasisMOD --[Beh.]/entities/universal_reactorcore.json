@@ -1,0 +1,51 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fierysys:universal_reactorcore",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:shulker"
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"armor_stand",
+					"inanimate",
+					"mob"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:health": {
+				"value": 6,
+				"max": 6
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:nameable": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

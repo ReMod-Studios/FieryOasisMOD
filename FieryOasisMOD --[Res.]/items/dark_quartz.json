@@ -1,0 +1,16 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:dark_quartz",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "dark_quartz",
+			"minecraft:use_animation": "drink",
+			"minecraft:hover_text_color": "dark_gray",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

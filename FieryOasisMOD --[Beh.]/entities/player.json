@@ -1,14 +1,44 @@
-//bridge-file-version: #0
+//bridge-file-version: #19
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
 		"description": {
+			"animations": {
+				"bridge_custom_item_behavior": "controller.animation.bridge_custom_item_behavior",
+				"steel_helmet": "controller.animation.steelhelmet",
+				"walk": "controller.animation.walk",
+				"blazestaff": "controller.animation.blazestaff"
+			},
+			"scripts": {
+				"animate": [
+					"bridge_custom_item_behavior",
+					"bridge_custom_item_behavior",
+					"steel_helmet",
+					"blazestaff",
+					"walk"
+				]
+			},
 			"identifier": "minecraft:player",
 			"is_spawnable": false,
 			"is_summonable": false,
 			"is_experimental": false
 		},
 		"component_groups": {
+			"bridge:default_player": {
+				"minecraft:attack": {
+					"damage": 1
+				}
+			},
+			"bridge:equipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9": {
+				"minecraft:attack": {
+					"damage": 5
+				}
+			},
+			"bridge:equipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5": {
+				"minecraft:attack": {
+					"damage": 5
+				}
+			},
 			"minecraft:add_bad_omen": {
 				"minecraft:spell_effects": {
 					"add_effects": [
@@ -44,6 +74,44 @@
 				"minecraft:spell_effects": {
 					"remove_effects": "bad_omen"
 				}
+			},
+			"fierysys:standard_player": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				},
+				"minecraft:movement": {
+					"value": 0.1
+				},
+				"minecraft:attack": {
+					"damage": 1
+				}
+			},
+			"fierysys:steel_helmet": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"display_on_screen_animation": true,
+							"effect": "resistance",
+							"duration": 999999,
+							"amplifier": 5,
+							"visible": 1,
+							"ambient": 1
+						}
+					]
+				},
+				"minecraft:is_chested": {}
+			},
+			"fierysys:shootFireball": {
+				"minecraft:spawn_entity": [
+					{
+						"spawn_entity": "minecraft:fireball",
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"num_to_spawn": 3,
+						"single_use": true
+					}
+				]
 			}
 		},
 		"components": {
@@ -148,26 +216,112 @@
 			},
 			"minecraft:scaffolding_climber": {},
 			"minecraft:environment_sensor": {
-				"triggers": {
-					"filters": {
-						"all_of": [
-							{
-								"test": "has_mob_effect",
-								"subject": "self",
-								"value": "bad_omen"
-							},
-							{
-								"test": "is_in_village",
-								"subject": "self",
-								"value": true
-							}
-						]
+				"triggers": [
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_mob_effect",
+									"subject": "self",
+									"value": "bad_omen"
+								},
+								{
+									"test": "is_in_village",
+									"subject": "self",
+									"value": true
+								}
+							]
+						},
+						"event": "minecraft:trigger_raid"
 					},
-					"event": "minecraft:trigger_raid"
-				}
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "self",
+							"value": "player"
+						},
+						"event": {}
+					}
+				]
+			},
+			"minecraft:scheduler": {
+				"scheduled_events": [
+					{
+						"scheduled_event": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"domain": "hand",
+										"value": "fierysys:blaze_staff"
+									},
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"value": "isShooting"
+									}
+								]
+							},
+							"event": "fierysys:addShoot_Fireball"
+						}
+					},
+					{
+						"scheduled_event": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_equipment",
+										"subject": "self",
+										"domain": "hand",
+										"operator": "not",
+										"value": "fierysys:blaze_staff"
+									}
+								]
+							},
+							"event": "fierysys:standardPlayer"
+						}
+					}
+				]
 			}
 		},
 		"events": {
+			"bridge:on_reset_player": {
+				"add": {
+					"component_groups": [
+						"bridge:default_player",
+						"bridge:default_player"
+					]
+				}
+			},
+			"bridge:on_equipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9": {
+				"add": {
+					"component_groups": [
+						"bridge:equipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9"
+					]
+				}
+			},
+			"bridge:on_unequipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9": {
+				"remove": {
+					"component_groups": [
+						"bridge:equipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9"
+					]
+				}
+			},
+			"bridge:on_equipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5": {
+				"add": {
+					"component_groups": [
+						"bridge:equipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5"
+					]
+				}
+			},
+			"bridge:on_unequipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5": {
+				"remove": {
+					"component_groups": [
+						"bridge:equipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5"
+					]
+				}
+			},
 			"minecraft:gain_bad_omen": {
 				"add": {
 					"component_groups": [
@@ -198,6 +352,21 @@
 				"remove": {
 					"component_groups": [
 						"minecraft:raid_trigger"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"fierysys:standard_player"
+					]
+				}
+			},
+			"fierysys:addShoot_Fireball": {},
+			"fierysys:standardPlayer": {
+				"add": {
+					"component_groups": [
+						"fierysys:standard_player"
 					]
 				}
 			}

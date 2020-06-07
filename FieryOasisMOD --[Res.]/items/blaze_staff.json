@@ -1,0 +1,16 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:blaze_staff",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "blazestaff",
+			"minecraft:use_animation": "bow",
+			"minecraft:hover_text_color": "gold",
+			"minecraft:render_offsets": "tools"
+		}
+	}
+}

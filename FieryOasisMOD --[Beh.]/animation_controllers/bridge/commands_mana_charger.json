@@ -1,0 +1,83 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bridge_mana_charger.execute_commands": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"execute_command_id_5": "query.skin_id == 5"
+						},
+						{
+							"execute_command_id_4": "query.skin_id == 4"
+						},
+						{
+							"execute_command_id_3": "query.skin_id == 3"
+						},
+						{
+							"execute_command_id_2": "query.skin_id == 2"
+						},
+						{
+							"execute_command_id_1": "query.skin_id == 1"
+						}
+					]
+				},
+				"execute_command_id_1": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 1"
+						}
+					],
+					"on_entry": [
+						"/function charger_remove",
+						"@s bridge:remove_command_id_1"
+					]
+				},
+				"execute_command_id_2": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 2"
+						}
+					],
+					"on_entry": [
+						"/function charger_private",
+						"@s bridge:remove_command_id_2"
+					]
+				},
+				"execute_command_id_3": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 3"
+						}
+					],
+					"on_entry": [
+						"/function charger_public",
+						"@s bridge:remove_command_id_3"
+					]
+				},
+				"execute_command_id_4": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 4"
+						}
+					],
+					"on_entry": [
+						"/function is_tamed",
+						"@s bridge:remove_command_id_4"
+					]
+				},
+				"execute_command_id_5": {
+					"transitions": [
+						{
+							"default": "query.skin_id != 5"
+						}
+					],
+					"on_entry": [
+						"/function charger_spawned",
+						"@s bridge:remove_command_id_5"
+					]
+				}
+			}
+		}
+	}
+}

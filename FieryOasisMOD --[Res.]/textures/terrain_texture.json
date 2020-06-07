@@ -1,7 +1,174 @@
+//bridge-file-version: #14
 {
-  "resource_pack_name": "bridgeRP",
-  "texture_name": "atlas.terrain",
-  "padding": 8,
-  "num_mip_levels": 4,
-  "texture_data": {}
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"platinum_ore": {
+			"textures": [
+				"textures/blocks/platinum_ore"
+			]
+		},
+		"platinum_block": {
+			"textures": [
+				"textures/blocks/platinum_block"
+			]
+		},
+		"steel_block": {
+			"textures": [
+				"textures/blocks/steel_block"
+			]
+		},
+		"reinforced_net": {
+			"textures": [
+				"textures/blocks/reinforced_net"
+			]
+		},
+		"chain_net": {
+			"textures": [
+				"textures/blocks/chaint_net"
+			]
+		},
+		"marble_bricks": {
+			"textures": [
+				"textures/blocks/marble_brick1"
+			]
+		},
+		"marble_carved": {
+			"textures": [
+				"textures/blocks/marble_carved"
+			]
+		},
+		"marble_chiseled": {
+			"textures": [
+				"textures/blocks/marble_chisled"
+			]
+		},
+		"marble_pillar": {
+			"textures": [
+				"textures/blocks/marble_pillar"
+			]
+		},
+		"polished_marble": {
+			"textures": [
+				"textures/blocks/polished_smooth_marble"
+			]
+		},
+		"marble": {
+			"textures": [
+				"textures/blocks/marble"
+			]
+		},
+		"mana_ore": {
+			"textures": [
+				"textures/blocks/mana_essence_ore"
+			]
+		},
+		"dark_mana_ore": {
+			"textures": [
+				"textures/blocks/dark_mana_essence_ore"
+			]
+		},
+		"glowing_obsidian": {
+			"textures": [
+				"textures/blocks/glowingobsidian"
+			]
+		},
+		"netherruby": {
+			"textures": [
+				"textures/blocks/nether_ruby"
+			]
+		},
+		"rubyBlock": {
+			"textures": [
+				"textures/blocks/ruby_block"
+			]
+		},
+		"black": {
+			"textures": [
+				"textures/blocks/chromablocks/black"
+			]
+		},
+		"blue": {
+			"textures": [
+				"textures/blocks/chromablocks/blue"
+			]
+		},
+		"brown": {
+			"textures": [
+				"textures/blocks/chromablocks/brown"
+			]
+		},
+		"cyan": {
+			"textures": [
+				"textures/blocks/chromablocks/cyan"
+			]
+		},
+		"darkgrey": {
+			"textures": [
+				"textures/blocks/chromablocks/darkgrey"
+			]
+		},
+		"green": {
+			"textures": [
+				"textures/blocks/chromablocks/green"
+			]
+		},
+		"grey": {
+			"textures": [
+				"textures/blocks/chromablocks/grey"
+			]
+		},
+		"lightblue": {
+			"textures": [
+				"textures/blocks/chromablocks/lightblue"
+			]
+		},
+		"lime": {
+			"textures": [
+				"textures/blocks/chromablocks/lime"
+			]
+		},
+		"magenta": {
+			"textures": [
+				"textures/blocks/chromablocks/magenta"
+			]
+		},
+		"orange": {
+			"textures": [
+				"textures/blocks/chromablocks/orange"
+			]
+		},
+		"pink": {
+			"textures": [
+				"textures/blocks/chromablocks/pink"
+			]
+		},
+		"purple": {
+			"textures": [
+				"textures/blocks/chromablocks/purple"
+			]
+		},
+		"red": {
+			"textures": [
+				"textures/blocks/chromablocks/red"
+			]
+		},
+		"white": {
+			"textures": [
+				"textures/blocks/chromablocks/white"
+			]
+		},
+		"yellow": {
+			"textures": [
+				"textures/blocks/chromablocks/yellow"
+			]
+		},
+		"quasidite": {
+			"textures": [
+				"textures/blocks/quasidite"
+			]
+		}
+	}
 }

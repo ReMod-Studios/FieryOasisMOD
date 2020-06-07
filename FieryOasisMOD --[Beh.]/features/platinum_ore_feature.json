@@ -1,15 +1,11 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
 	"format_version": "1.13.0",
 	"minecraft:ore_feature": {
 		"description": {
-			"identifier": "fierysys:platinum_ore_feature"
+			"identifier": "platinum_ore_feature"
 		},
-		"count": 9,
-		"places_block": {
-			"name": "fierysys:platinum_ore",
-			"states": {}
-		},
+		"count": 15,
 		"may_replace": [
 			{
 				"name": "minecraft:stone",
@@ -53,6 +49,7 @@
 					"stone_type": "stone"
 				}
 			}
-		]
+		],
+		"places_block": "fierysys:platinum_ore"
 	}
 }

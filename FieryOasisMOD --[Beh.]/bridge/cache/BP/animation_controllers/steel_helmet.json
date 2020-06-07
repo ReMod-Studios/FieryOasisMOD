@@ -1,0 +1,243 @@
+{
+	"file_path": "C:\\Users\\Pikachu\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\FieryOasisMOD\\animation_controllers\\steel_helmet.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "20941a81_cb88_4bde_9c60_9ae4412d387e",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.steelhelmet": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+										}
+									]
+								},
+								"equipped": {
+									"on_entry": [
+										"/function functionsArmor/steel_helmet"
+									],
+									"transitions": [
+										{
+											"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.steelhelmet": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+											}
+										]
+									},
+									"equipped": {
+										"on_entry": [
+											"/function functionsArmor/steel_helmet"
+										],
+										"transitions": [
+											{
+												"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.steelhelmet",
+						"children": [
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+												}
+											]
+										},
+										"equipped": {
+											"on_entry": [
+												"/function functionsArmor/steel_helmet"
+											],
+											"transitions": [
+												{
+													"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+												}
+											]
+										}
+									}
+								},
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+												}
+											]
+										},
+										"equipped": {
+											"on_entry": [
+												"/function functionsArmor/steel_helmet"
+											],
+											"transitions": [
+												{
+													"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+													}
+												]
+											},
+											"equipped": {
+												"on_entry": [
+													"/function functionsArmor/steel_helmet"
+												],
+												"transitions": [
+													{
+														"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+														}
+													]
+												},
+												"key": "transitions",
+												"array": [
+													{
+														"open": [
+															{
+																"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"equipped": "query.get_equipped_item_name('main_hand')=='steel_helmet' && query.is_using_item('main_hand')"
+													}
+												]
+											},
+											"equipped": {
+												"on_entry": [
+													"/function functionsArmor/steel_helmet"
+												],
+												"transitions": [
+													{
+														"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+													}
+												]
+											}
+										},
+										"key": "equipped",
+										"children": [
+											{
+												"open": {
+													"on_entry": [
+														"/function functionsArmor/steel_helmet"
+													],
+													"transitions": [
+														{
+															"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+														}
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"array": [
+													"/function functionsArmor/steel_helmet"
+												]
+											},
+											{
+												"open": {
+													"on_entry": [
+														"/function functionsArmor/steel_helmet"
+													],
+													"transitions": [
+														{
+															"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+														}
+													]
+												},
+												"key": "transitions",
+												"array": [
+													{
+														"open": [
+															{
+																"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.get_equipped_item_name('head') !='steel_helmet' && query.is_using_item('main_hand')"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

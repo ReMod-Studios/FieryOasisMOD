@@ -1,0 +1,16 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:cocaine",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "cocaine",
+			"minecraft:use_animation": "drink",
+			"minecraft:hover_text_color": "gray",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

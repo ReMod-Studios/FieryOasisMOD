@@ -1,0 +1,239 @@
+{
+	"file_path": "C:\\Users\\Pikachu\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\FieryOasisMOD\\manifest.json",
+	"file_type": "unknown",
+	"format_version": 1,
+	"file_uuid": "1e9cd68c_5b0e_49a8_bb08_9e245c164161",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "a11b2b91-6af8-431d-b67f-08007b893ba1",
+						"version": [
+							1,
+							0,
+							6
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "4a39760b-47b7-47c7-8f98-9455ec0e5380",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "b5227812-d710-4a59-880e-9e08013a8fbf"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "pack.name",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"data": "a11b2b91-6af8-431d-b67f-08007b893ba1",
+						"key": "uuid"
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"uuid": "a11b2b91-6af8-431d-b67f-08007b893ba1",
+							"version": [
+								1,
+								0,
+								6
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"key": "version",
+						"is_minified": true,
+						"array": [
+							1,
+							0,
+							6
+						]
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"uuid": "a11b2b91-6af8-431d-b67f-08007b893ba1",
+							"version": [
+								1,
+								0,
+								6
+							],
+							"min_engine_version": [
+								1,
+								13,
+								0
+							]
+						},
+						"key": "min_engine_version",
+						"is_minified": true,
+						"array": [
+							1,
+							13,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "a11b2b91-6af8-431d-b67f-08007b893ba1",
+						"version": [
+							1,
+							0,
+							6
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "4a39760b-47b7-47c7-8f98-9455ec0e5380",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "b5227812-d710-4a59-880e-9e08013a8fbf"
+						}
+					]
+				},
+				"key": "modules",
+				"array": [
+					{
+						"open": [
+							{
+								"type": "data",
+								"uuid": "4a39760b-47b7-47c7-8f98-9455ec0e5380",
+								"version": [
+									1,
+									0,
+									0
+								]
+							}
+						],
+						"is_minified": true,
+						"children": {
+							"type": "data",
+							"uuid": "4a39760b-47b7-47c7-8f98-9455ec0e5380",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "a11b2b91-6af8-431d-b67f-08007b893ba1",
+						"version": [
+							1,
+							0,
+							6
+						],
+						"min_engine_version": [
+							1,
+							13,
+							0
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "4a39760b-47b7-47c7-8f98-9455ec0e5380",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "b5227812-d710-4a59-880e-9e08013a8fbf"
+						}
+					]
+				},
+				"key": "dependencies",
+				"is_minified": true,
+				"array": [
+					{
+						"version": [
+							1,
+							0,
+							0
+						],
+						"uuid": "b5227812-d710-4a59-880e-9e08013a8fbf"
+					}
+				]
+			}
+		]
+	}
+}

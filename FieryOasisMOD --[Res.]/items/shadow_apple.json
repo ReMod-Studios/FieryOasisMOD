@@ -1,0 +1,16 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:shadow_apple",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "shadow_Apple",
+			"minecraft:use_animation": "eat",
+			"minecraft:hover_text_color": "dark_purple",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

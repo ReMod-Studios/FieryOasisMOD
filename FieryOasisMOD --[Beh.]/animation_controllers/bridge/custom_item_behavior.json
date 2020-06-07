@@ -3,7 +3,37 @@
 	"animation_controllers": {
 		"controller.animation.bridge_custom_item_behavior": {
 			"states": {
-				"default": {}
+				"default": {
+					"transitions": [
+						{
+							"holds_blaze_staff": "query.get_equipped_item_name(0, 0) == 'blaze_staff'"
+						},
+						{
+							"holds_blaze_staff": "query.get_equipped_item_name(0, 0) == 'blaze_staff'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_reset_player"
+					]
+				},
+				"holds_blaze_staff": {
+					"transitions": [
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'blaze_staff'"
+						},
+						{
+							"default": "query.get_equipped_item_name(0, 0) != 'blaze_staff'"
+						}
+					],
+					"on_entry": [
+						"@s bridge:on_equipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9",
+						"@s bridge:on_equipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5"
+					],
+					"on_exit": [
+						"@s bridge:on_unequipped_715a3dc2_725e_4cc7_a909_09f2d051c3c9",
+						"@s bridge:on_unequipped_0c81c8e6_5b8b_409d_8d17_9dd595a76ec5"
+					]
+				}
 			}
 		}
 	}

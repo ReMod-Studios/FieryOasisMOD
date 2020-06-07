@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fierysys:universal_reactorcore",
+			"materials": {
+				"default": "entity"
+			},
+			"textures": {
+				"default": "textures/entity/reactorcore"
+			},
+			"geometry": {
+				"default": "geometry.reactorcore"
+			},
+			"render_controllers": [
+				"controller.render.universal_reactorcore"
+			],
+			"spawn_egg": {
+				"base_color": "#B61919",
+				"overlay_color": "#2E2E2E"
+			}
+		}
+	}
+}

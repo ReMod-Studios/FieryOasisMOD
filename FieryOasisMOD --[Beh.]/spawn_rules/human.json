@@ -1,0 +1,40 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.8.0",
+	"minecraft:spawn_rules": {
+		"description": {
+			"identifier": "fierysys:human",
+			"population_control": "pillager"
+		},
+		"conditions": [
+			{
+				"minecraft:spawns_on_surface": {},
+				"minecraft:brightness_filter": {
+					"min": 0,
+					"max": 15
+				},
+				"minecraft:difficulty_filter": {
+					"min": "easy",
+					"max": "hard"
+				},
+				"minecraft:weight": {
+					"default": 100
+				},
+				"minecraft:herd": {
+					"min_size": 2,
+					"max_size": 3
+				},
+				"minecraft:permute_type": [
+					{
+						"weight": 95
+					}
+				],
+				"minecraft:biome_filter": {
+					"test": "has_biome_tag",
+					"operator": "==",
+					"value": "plains"
+				}
+			}
+		]
+	}
+}

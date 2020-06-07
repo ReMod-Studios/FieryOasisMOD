@@ -1,0 +1,16 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.13.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fierysys:platinum_coin",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "platinum_coin",
+			"minecraft:use_animation": "camera",
+			"minecraft:hover_text_color": "white",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

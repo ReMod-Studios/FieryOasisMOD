@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #2
 {
 	"format_version": "1.13.0",
 	"minecraft:item": {
@@ -6,8 +6,7 @@
 			"identifier": "fierysys:platinum_coin"
 		},
 		"components": {
-			"minecraft:use_duration": 0,
-			"minecraft:max_stack_size": 10,
+			"minecraft:max_stack_size": 16,
 			"minecraft:hand_equipped": false,
 			"minecraft:stacked_by_data": true
 		}

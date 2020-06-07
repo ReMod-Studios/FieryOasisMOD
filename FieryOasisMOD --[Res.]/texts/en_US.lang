@@ -1,4 +1,4 @@
-##bridge-file-version: #2
+##bridge-file-version: #17
 pack.name=FieryOasisMOD --[Res.]
 pack.description=The open source mod project used In the MInecraft SMP Server "FierySMP" (S1)  ||  Discord Server -- n299aNQ  ||  Owner's Discord -- «-⟩ PizzaloverPichu ⟨-»#5243     |<->||
 
@@ -6,9 +6,60 @@ pack.description=The open source mod project used In the MInecraft SMP Server "F
 ##blocks
 tile.fierysys:platinum_block.name=Platinum Block
 tile.fierysys:platinum_ore.name=Platinum Ore
-
+tile.fierysys:blacksteel_block.name=Blacksteel Block
+tile.fierysys:chain_steel_net.name=Chained Steel Net
+tile.fierysys:reinforced_steel_net.name=Reinforced Steel Net
+tile.fierysys:marble.name=Marble
+tile.fierysys:mana_essence_ore.name=Mana Ore
+tile.fierysys:dark_mana_ore.name=Dark Mana Ore
+tile.fierysys:smooth_marble.name=Smooth Marble
+tile.fierysys:marble_bricks.name=Marble Bricks
+tile.fierysys:marble_carved.name=Carved Marble
+tile.fierysys:marble_chiseled.name=Chiseled Marble
+tile.fierysys:marble_pillar.name=Marble Pillar
+tile.fierysys:glow_obsidian.name=Glowing Obsidian
+tile.fierysys:quasidite.name=Quasidite
+tile.fierysys:rubyBlock.name=Block of Ruby
+tile.fierysys:netherruby.name=Nether Ruby Ore
+##chromaTorture
+tile.fierysys:chromaBlock_black.name=Black Chroma Block
+tile.fierysys:chromaBlock_black.name=Blue Chroma Block
+tile.fierysys:chromaBlock_brown.name=Brown Chroma Block
+tile.fierysys:chromaBlock_cyan.name=Cyan Chroma Block
+tile.fierysys:chromaBlock_darkgrey.name=Dark Grey Chroma Block
+tile.fierysys:chromaBlock_green.name=Green Chroma Block
+tile.fierysys:chromaBlock_grey.name=Grey Chroma Block
+tile.fierysys:chromaBlock_lightblue.name=Light Blue Chroma Block
+tile.fierysys:chromaBlock_lime.name=Lime Chroma Block
+tile.fierysys:chromaBlock_magenta.name=Magenta Chroma Block
+tile.fierysys:chromaBlock_orange.name=Orange Chroma Block
+tile.fierysys:chromaBlock_pink.name=Pink Chroma Block
+tile.fierysys:chromaBlock_purple.name=Purple Chroma Block
+tile.fierysys:chromaBlock_red.name=Red Chroma Block
+tile.fierysys:chromaBlock_white.name=White Chroma Block
+tile.fierysys:chromaBlock_yellow.name=Yellow Chroma Block
 
 ##items
 item.fierysys:platinum_coin.name=Platinum Coin
 item.fierysys:platinum_nugget.name=Platinum Nugget
 item.fierysys:platinum_ingot.name=Platinum Ingot
+item.fierysys:cocaine.name=Cocaine
+item.fierysys:blacksteel_ingot.name=Blacksteel Ingot
+item.fierysys:shadow_apple.name=Shadow Apple
+item.fierysys:steel_helmet.name=Steel Helmet
+item.fierysys:dynamite.name=Dynamite
+item.fierysys:rubyGemstone.name=Ruby
+item.fierysys:uranium.name=Uranium Shard
+item.fierysys:blaze_staff.name=Blaze Staff
+item.fierysys:dark_quartz.name=Dark Quartz
+
+##entities
+entity.fierysys:universal_reactorcore.name=Universal Reactor Core
+entity.fierysys:mana_charger.name=Mana Charger
+entity.unknown.name=Storage
+
+##spawn_eggs
+item.spawn_egg.entity.fierysys:mana_charger.name=Mana Charger
+
+##other
+action.hint.exit.fierysys:mana_charger=Exit

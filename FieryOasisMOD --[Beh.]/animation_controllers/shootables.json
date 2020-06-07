@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.walk": {
+      "states": {
+        "default": {
+          "transitions": [ { "walk": "(1.0)" } ],
+          "on_entry": [ "/tag @s remove isShooting" ]
+        },
+        "walk": {
+          "transitions": [ { "default": "(1.0)" } ],
+          "on_entry": [ "/tag @s remove isShooting" ]
+        }
+      }
+    },
+    "controller.animation.blazestaff": {
+      "states": {
+        "default": {
+          "transitions": [ { "blazestaff": "query.get_equipped_item_name == 'blaze_staff' && query.is_using_item" } ],
+          "on_entry": [ "/tag @s add isShooting" ]
+        },
+        "blazestaff": {
+          "transitions": [ { "default": "query.get_equipped_item_name == 'blaze_staff' && query.is_using_item" } ],
+          "on_entry": [ "/tag @s add isShooting" ]
+        }
+      }
+    }
+  }
+}
